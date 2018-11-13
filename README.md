@@ -1,4 +1,4 @@
-# HelloAngular-Basic Components and Data Binding
+#Basic Components and Angular Data Bindings
 
 Used "hello-angular" project as a base, and implimented angular data binding features on top of that.  
 
