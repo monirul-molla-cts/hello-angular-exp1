@@ -13,14 +13,18 @@ Used "hello-angular" project as a base, and implimented angular data binding fea
   2. Add ```myColor:string = "red";``` in the app.component.ts
   
 - **Event Binding**  
-  1. Add ```<input [(ngModel)]="myColor"/>``` in the app.component.html   
+  1. Add ```<button (click)="changeColor()">Change Color</button>``` in the app.component.html   
   2. Add the following function in the app.component.ts
      ```
      changeColor():void {
         this.myColor = 'green';
      } 
      ```  
-     Note: while defining the function, please make sure that you have defined the function inside the AppComponent class.  
+     Note: while defining the function, please make sure that you have defined the function inside the AppComponent class.    
+     
+- **Two-way Binding**  
+  1. Add ```<input [(ngModel)]="myColor"/>``` in the app.component.html   
+  2.  Add ```myColor:string = "red";``` in the app.component.ts
     
 
 
