@@ -8,7 +8,7 @@ Used "hello-angular" project as a base, and implimented angular data binding fea
   1. Add ```{{ title }}``` in the app.component.html    
   (https://github.com/monirul-molla-cts/demo-images/blob/master/angular-interpolation1.png)
   2. Add ```title = 'My Angular Sandbox';``` in the app.component.ts  
-  [[https://github.com/monirul-molla-cts/demo-images/blob/master/angula-interpolation2.png.png]]
+  [[https://github.com/monirul-molla-cts/demo-images/blob/master/angula-interpolation2.png]]
   
 - **Property Binding**  
   1. Add ```<h2 [style.color]="myColor">Here are some links to help you start: </h2>``` in the app.component.html   
