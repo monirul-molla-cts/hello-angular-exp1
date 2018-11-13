@@ -6,18 +6,24 @@ Used "hello-angular" project as a base, and implimented angular data binding fea
 
 - **Interpolation Binding**  
   1. Add ```{{ title }}``` in the app.component.html    
-  ![Interpolation](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-interpolation1.png)
-  2. Add ```title = 'My Angular Sandbox';``` in the app.component.ts  
+  
+  ![Interpolation](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-interpolation1.png)  
+  
+  2. Add ```title = 'My Angular Sandbox';``` in the app.component.ts   
+  
   ![Interpolation](https://github.com/monirul-molla-cts/demo-images/blob/master/angula-interpolation2.png)
   
 - **Property Binding**  
-  1. Add ```<h2 [style.color]="myColor">Here are some links to help you start: </h2>``` in the app.component.html  
+  1. Add ```<h2 [style.color]="myColor">Here are some links to help you start: </h2>``` in the app.component.html   
+  
   ![Property Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-property-binding1.png) 
-  2. Add ```myColor:string = "red";``` in the app.component.ts
+  2. Add ```myColor:string = "red";``` in the app.component.ts  
+  
   ![Property Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-property-binding2.png)
   
 - **Event Binding**  
-  1. Add ```<button (click)="changeColor()">Change Color</button>``` in the app.component.html   
+  1. Add ```<button (click)="changeColor()">Change Color</button>``` in the app.component.html     
+  
   ![Event Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-event-binding1.png)
   2. Add the following function in the app.component.ts
      ```
@@ -25,13 +31,18 @@ Used "hello-angular" project as a base, and implimented angular data binding fea
         this.myColor = 'green';
      } 
      ```  
-     ![Event Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-event-binding2.png)
+     ![Event Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-event-binding2.png)  
+     
      Note: while defining the function, please make sure that you have defined the function inside the AppComponent class.    
      
 - **Two-way Binding**  
-  1. Add ```<input [(ngModel)]="myColor"/>``` in the app.component.html   
+  1. Add ```<input [(ngModel)]="myColor"/>``` in the app.component.html     
+  
   ![Two-way Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-two-way-binding1.png)
-  2.  Add ```myColor:string = "red";``` in the app.component.ts
+  
+  
+  2.  Add ```myColor:string = "red";``` in the app.component.ts  
+  
   ![Two-way Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-two-way-binding2.png)
 
 
