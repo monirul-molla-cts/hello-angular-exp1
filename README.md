@@ -4,9 +4,13 @@ Used "hello-angular" project as a base, and implimented angular data binding fea
 
 ## The following types of data binding are implemented in this project step by step.
 
-- **Interpolation - Data binding**  
-  1. Add ```{{ title }}``` in the **app.component.html**    
-  2. Add ```title = 'My Angular Sandbox';``` in the **app.component.ts**  
+- **Interpolation Binding**  
+  1. Add ```{{ title }}``` in the app.component.html    
+  2. Add ```title = 'My Angular Sandbox';``` in the app.component.ts  
+  
+- **Property Binding**  
+  1. Add ```<h2 [style.color]="myColor">Here are some links to help you start: </h2>``` in the app.component.html   
+  2. Add ```myColor:string = "red";``` in the app.component.ts
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
