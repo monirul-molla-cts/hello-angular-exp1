@@ -1,6 +1,6 @@
 # HelloAngular-Basic Components and Data Binding
 
-Used "hello-angular" project as a base, and implimented binding features on top of that.  
+Used "hello-angular" project as a base, and implimented angular data binding features on top of that.  
 
 ## The following types of data binding are implemented in this project step by step.
 
