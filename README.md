@@ -1,4 +1,4 @@
-# HalloAngular-Basic Components and Binding
+# HalloAngular-Basic Components and Data Binding
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
