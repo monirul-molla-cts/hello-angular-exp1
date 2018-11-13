@@ -46,6 +46,18 @@ Use the "hello-angular" project as a base, and implimented angular data binding 
   ![Two-way Binding](https://github.com/monirul-molla-cts/demo-images/blob/master/angular-two-way-binding2.png)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
 ## Development server
