@@ -1,4 +1,11 @@
-# HalloAngular-Basic Components and Data Binding
+# HelloAngular-Basic Components and Data Binding
+
+Used "hello-angular" project as a base, and implimented binding features on top of that.  
+
+## The following types of data binding are implemented in this project step by step.
+
+- Interpolation - Data binding
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
