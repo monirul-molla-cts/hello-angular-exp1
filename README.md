@@ -4,9 +4,9 @@ Used "hello-angular" project as a base, and implimented angular data binding fea
 
 ## The following types of data binding are implemented in this project step by step.
 
-- Interpolation - Data binding  
-  1. Add "{{ title }}" in the app.component.html  
-  2. Add ```title = 'My Angular Sandbox';``` in the app.component.ts  
+- **Interpolation - Data binding**  
+  1. Add ```{{ title }}``` in the **app.component.html**    
+  2. Add ```title = 'My Angular Sandbox';``` in the **app.component.ts**  
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
